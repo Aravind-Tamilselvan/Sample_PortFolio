@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="nav-bar">
+        <div class="Logo"><a href="#home">ARAVIND T</a></div>
+        <div class="nav-tags">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- Home page -->
+    <div class="home" id="home">
+        <img src="Images/Profile.jpeg" alt="Profile picture" class="profile-img">
+        <div>
+            <div class="content">
+                <h3>Hello,myself</h3>
+                <h1>Aravind T</h1>
+                <h3>I'm a Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sint! Lorem ipsum dolor sit amet
+                    <br>consectetur adipisicing elit. Molestias, modi.
+                </p>
+            </div>
+            <div class="icons">
+                <a class="bttn" href="https://www.linkedin.com/in/aravind-t-3506a8228/"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="#" class="bttn"> <i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/aravind__privt/" class="bttn"><i class='bx bxl-instagram'></i></a>
+
+                <a href="CV/Aravind T.pdf" download="Aravind T.pdf"><button class="btn">Download CV</button></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- about page -->
+    <div class="about" id="about">
+        <div>
+            <h1>About Me</h1>
+            <h3>I'm a Frontend Developer</h3>
+            <p id="about-me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed modi asperiores<br>corrupti! Quia,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, soluta voluptas et saepe cupiditate quod recusandae nulla enim alias velit!</p>
+
+            <button id="info" onclick="about()">Read More</button>
+        </div>
+
+        <img src="Images/About.jpg">
+
+    </div>
+    <!-- services page -->
+    <div class="services" id="services">
+        <h1>My Services</h1>
+        <div class="section">
+            <div class="one">
+                <i class='bx bx-devices'></i>
+                <h3>Frontend Development</h3>
+                <p id="FD-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam quibusdam recusandae minima
+                    repellat? Quibusdam delectus, ab, corporis suscipit nesciunt minus a ipsa saepe porro neque commodi
+                    architecto aut molestias.</p>
+                <button id="FD" onclick="fd()">Read More</button>
+            </div>
+            <div class="two">
+                <i class='bx bx-line-chart'></i>
+                <h3>Data visualization</h3>
+                <p id="DV-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, dolor quam. Quidem, sit inventore
+                    fugit voluptatem nemo voluptates minus consequuntur impedit aliquid quia eos repellendus omnis eaque
+                    reiciendis? Sint, cumque?</p>
+                <button id="DV" onclick="dv()">Read more</button>
+            </div>
+            <div class="three">
+                <i class='bx bxl-meta'></i>
+                <h3>Digital Marketing</h3>
+                <p id="DM-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veritatis laudantium dolorem,
+                    accusamus vitae veniam, repudiandae dolores reiciendis animi quasi, nam ducimus nostrum iste
+                    officiis explicabo quod ipsam itaque provident!</p>
+                <button id="DM" onclick="dm()">Read more</button>
+            </div>
+        </div>
+    </div>
+    <!-- contact page -->
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-section">
+            <div class="input-tags">
+                <input type="text" placeholder="Enter your Name" class="fname">
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="number" placeholder="Enter your mobile Number" class="number">
+                <input type="text" placeholder="Email Subject" class="subject">                
+                <textarea placeholder="Your Message" id="textarea"></textarea>
+            </div>
+        </div>
+        <button>Submit</button>
+    </div>
+
+    <footer>&copy;Copyrights belongs to Aravind T</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
